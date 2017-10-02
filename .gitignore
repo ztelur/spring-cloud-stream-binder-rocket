@@ -1,24 +1,24 @@
+/application.yml
+/application.properties
+asciidoctor.css
+*~
+.#*
+*#
 target/
-!.mvn/wrapper/maven-wrapper.jar
-
-### STS ###
-.apt_generated
+build/
+bin/
+_site/
 .classpath
-.factorypath
 .project
 .settings
 .springBeans
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+.DS_Store
+*.sw*
 *.iml
 *.ipr
-
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+*.iws
+.idea/*
+.factorypath
+dump.rdb
+.apt_generated
+artifacts
